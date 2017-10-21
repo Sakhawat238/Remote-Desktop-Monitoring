@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Project_RDM_and_FT:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Project_RDM_and_FT_jar</output-path>
+    <root id="archive" name="Project_RDM_and_FT.jar">
+      <element id="module-output" name="Project_RDM_and_FT" />
+    </root>
+  </artifact>
+</component>

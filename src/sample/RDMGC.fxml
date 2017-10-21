@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="677.0" layoutY="-1.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="rct" layoutX="229.0" layoutY="108.0" onAction="#DesktopMontoring" prefHeight="34.0" prefWidth="238.0" promptText="e.g.127.0.0.1">
+         <effect>
+            <InnerShadow color="#0000003d" />
+         </effect></TextField>
+      <TextField fx:id="rctt" layoutX="229.0" layoutY="200.0" onAction="#DesktopMontoring" prefHeight="34.0" prefWidth="238.0" promptText="e.g.1234">
+         <effect>
+            <InnerShadow color="#00000032" />
+         </effect></TextField>
+      <Label layoutX="105.0" layoutY="112.0" prefHeight="17.0" prefWidth="110.0" text="Server IP:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="93.0" layoutY="204.0" prefHeight="17.0" prefWidth="102.0" text="Server Port:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="rcbb" layoutX="282.0" layoutY="287.0" mnemonicParsing="false" onAction="#DesktopMontoring" prefHeight="27.0" prefWidth="83.0" text="Connect" />
+   </children>
+</Pane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="618.0" layoutX="1.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="ftb" layoutX="179.0" layoutY="245.0" mnemonicParsing="false" onAction="#DesktopMontoring" prefHeight="25.0" prefWidth="243.0" text="File Transfer" textFill="#f20404">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="dmb" layoutX="179.0" layoutY="123.0" mnemonicParsing="false" onAction="#DesktopMontoring" prefHeight="31.0" prefWidth="243.0" text="Desktop Monitoring" textFill="#ed0505" textOverrun="CLIP">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children>
+         <effect>
+            <DropShadow height="32.86" radius="18.1525" width="41.75" />
+         </effect>
+      </Pane>
+   </children>
+</GridPane>

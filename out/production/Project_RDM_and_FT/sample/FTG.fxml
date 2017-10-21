@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="752.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="fts" layoutX="238.0" layoutY="150.0" mnemonicParsing="false" onAction="#DesktopMontoring" prefHeight="23.0" prefWidth="127.0" text="Sender">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <effect>
+            <DropShadow color="#00000097" />
+         </effect>
+      </Button>
+      <Button fx:id="ftr" layoutX="238.0" layoutY="231.0" mnemonicParsing="false" onAction="#DesktopMontoring" prefHeight="25.0" prefWidth="127.0" text="Receiver">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <DropShadow color="#00000099" />
+         </effect>
+      </Button>
+   </children>
+</Pane>

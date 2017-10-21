@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="659.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="111.0" layoutY="153.0" text="Server Port:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="217.0" text="File  Path:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ftstt" layoutX="235.0" layoutY="154.0" onAction="#DesktopMontoring" prefHeight="25.0" prefWidth="237.0" promptText="e.g.1234" />
+      <TextField fx:id="ftsttt" layoutX="235.0" layoutY="218.0" onAction="#DesktopMontoring" prefHeight="25.0" prefWidth="237.0" promptText="e.g.c:\\USER\\log.txt" />
+      <Button fx:id="ftsb" layoutX="283.0" layoutY="292.0" mnemonicParsing="false" onAction="#DesktopMontoring" text="Connect" />
+   </children>
+</Pane>
